@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+    float x;
+    scanf("%f",&x);
+    if(x<0.00 || x>100.00)
+    {
+        printf("Fora de intervalo\n");
+    }
+    else if (x>=0.00 && x<=25.00)
+        printf("	ntervalo [0,25]\n");
+            else if (x>=25.00 && x<=50.00)
+        printf("	ntervalo (25,50]\n");
+            else if (x>=50.00 && x<=75.00)
+        printf("	ntervalo (50,75]\n");
+            else if (x>=75.00 && x<=100.00)
+        printf("	ntervalo (75,100]\n");
+        return 0;
+
+
+    }
